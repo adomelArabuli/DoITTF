@@ -37,7 +37,6 @@
             stepAcademyCollection[0] = 32423;
             Console.WriteLine(stepAcademyCollection[0]);
             Console.WriteLine(stepAcademyCollection[1]);
-            Console.WriteLine();
         }
     }
 
@@ -45,9 +44,12 @@
     {
         int[] items;
 
+        int currentIndex;
+
         public StepAcademyCollection(int size)
         {
             items = new int[size];
+            currentIndex = 0;
         }
 
         // create indexer
@@ -74,6 +76,19 @@
                 {
                     throw new IndexOutOfRangeException($"Index {index} is out of range.");
                 }
+            }
+        }
+
+        public void Add(int value)
+        {
+            if(currentIndex < items.Length)
+            {
+                items[currentIndex] = value;
+                currentIndex++;
+            }
+            else
+            {
+                Console.WriteLine("Collection is full");
             }
         }
 
