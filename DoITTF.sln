@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture10(OperatorOverloadi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{C3C27A48-2368-4F8F-924C-B3735C62CFB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{F22DC8DF-D5E3-406D-8816-B4553114BD24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{F22DC8DF-D5E3-406D-8816-B4553114BD24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollections", "GenericCollections\GenericCollections.csproj", "{376EF1CF-59DE-49CC-AC9A-1951F901C7F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F22DC8DF-D5E3-406D-8816-B4553114BD24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22DC8DF-D5E3-406D-8816-B4553114BD24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F22DC8DF-D5E3-406D-8816-B4553114BD24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376EF1CF-59DE-49CC-AC9A-1951F901C7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376EF1CF-59DE-49CC-AC9A-1951F901C7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376EF1CF-59DE-49CC-AC9A-1951F901C7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376EF1CF-59DE-49CC-AC9A-1951F901C7F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
