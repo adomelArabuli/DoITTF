@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq Part1", "Linq Part1\Li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq part 2", "Linq part 2\Linq part 2.csproj", "{7C3CFDE3-99A0-473E-A685-B3AAB6D82D99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream", "FileStream\FileStream.csproj", "{DF73CFA5-C45A-4F94-AB1D-C2A200C17774}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStream", "FileStream\FileStream.csproj", "{DF73CFA5-C45A-4F94-AB1D-C2A200C17774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDirectoryFileInfoDirectoryInfo", "FileDirectoryFileInfoDirectoryInfo\FileDirectoryFileInfoDirectoryInfo.csproj", "{14BD0264-13B5-4EB1-AE14-95DD28D5BC8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{DF73CFA5-C45A-4F94-AB1D-C2A200C17774}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF73CFA5-C45A-4F94-AB1D-C2A200C17774}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF73CFA5-C45A-4F94-AB1D-C2A200C17774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BD0264-13B5-4EB1-AE14-95DD28D5BC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BD0264-13B5-4EB1-AE14-95DD28D5BC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BD0264-13B5-4EB1-AE14-95DD28D5BC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BD0264-13B5-4EB1-AE14-95DD28D5BC8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
